@@ -7,70 +7,59 @@ p {
 }
 
 body {
-    /* Define a largura da página em 80% do viewport, com um máximo de 1280px */
     width: 80%;
     max-width: 1280px;
 
-    /* Centraliza a página na tela */
     margin: 0 auto;
 }
 
-/* Define a altura da seção de introdução */
 #intro-section {
     height: 550px;
 }
 
-/* Remove o container #design-archives da renderização */
 #design-archives {
     display: none;
 }
 
 header {
-    /* Inverte as cores: fundo escuro, fonte clara */
     background-color: #333;
     color: #fff;
 
-    /* Usa flexbox para alinhar título e subtítulo */
+    
     display: flex;
-    justify-content: space-between; /* Mantém espaço entre os elementos */
-    align-items: center; /* Alinha verticalmente no centro */
-    padding: 1em; /* Adiciona espaçamento interno para o cabeçalho */
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1em;
 }
 
 header h1 {
-    /* Adiciona espaçamento lateral de 1em para o título principal */
     padding-left: 1em;
 }
 
-/* Remove os bullets de listas não ordenadas dentro do painel lateral */
 .sidebar ul {
     list-style-type: none;
     padding: 0;
 }
 
-/* Aumenta o espaçamento entre os itens do menu e centraliza */
+
 .sidebar li {
     margin-bottom: 1em;
     text-align: center;
 }
 footer {
-    /* Inverte as cores para contraste */
     background-color: #333;
     color: #fff;
 
-    /* Adiciona 4% de espaçamento externo */
     margin: 4%;
 
-    /* Usa flexbox para ajudar a posicionar os links, se necessário */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 footer a {
-    /* Transforma cada link em uma caixa com borda */
     border: 2px solid #fff;
-    padding: 0.5em; /* Adiciona espaçamento interno */
-    text-decoration: none; /* Remove sublinhado dos links */
+    padding: 0.5em;
+    text-decoration: none;
     color: #fff;
 }
